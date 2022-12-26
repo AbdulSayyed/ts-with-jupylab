@@ -16,4 +16,6 @@
 ### Notes
 
 - Though vscode terminal seems to be working, but I have prepared a cygwin shell for this project, its entery is present in `setting.json` file. You can open this ternminal and start working.
+- Problems were coming to commit from conda shell using cywin, copied all files from C:/sghaf/.ssh folder to `w:/cygwin/cygwin64/home/` folder.
+- Added `git config --global credential.helper store`
 - 
