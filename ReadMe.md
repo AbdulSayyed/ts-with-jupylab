@@ -26,4 +26,4 @@ error: pathspec 'normal committ' did not match any file(s) known to git
 ```
 
 - This trun out to be a problem of chracters and it was solved using `git commit --message "normal commit"
-- 
+- This works 
