@@ -18,4 +18,12 @@
 - Though vscode terminal seems to be working, but I have prepared a cygwin shell for this project, its entery is present in `setting.json` file. You can open this ternminal and start working.
 - Problems were coming to commit from conda shell using cywin, copied all files from C:/sghaf/.ssh folder to `w:/cygwin/cygwin64/home/` folder.
 - Added `git config --global credential.helper store`
+- Another problem started to come from conda and power shell that it would not understand the commit message.
+  
+```text
+   sghaf: jupy-ts on main [ ts-with-jupylab 3.10.8] [ 18.12.1] ❯ git cm -m "normal committ"
+error: pathspec 'normal committ' did not match any file(s) known to git
+```
+
+- This trun out to be a problem of chracters and it was solved using `git commit --message "normal commit"
 - 
